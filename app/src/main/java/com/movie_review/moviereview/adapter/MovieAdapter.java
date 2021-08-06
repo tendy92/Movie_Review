@@ -1,4 +1,4 @@
-package com.example.moviereview.adapter;
+package com.movie_review.moviereview.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,9 +13,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.moviereview.R;
-import com.example.moviereview.activity.DetailActivity;
-import com.example.moviereview.model.Result;
+import com.movie_review.moviereview.R;
+import com.movie_review.moviereview.activity.DetailActivity;
+import com.movie_review.moviereview.model.Result;
 
 import java.util.List;
 

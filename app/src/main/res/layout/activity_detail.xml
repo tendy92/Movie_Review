@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bone"
-    tools:context=".activity.DetailActivity">
+    tools:context="com.movie_review.moviereview.activity.DetailActivity">
 
     <ImageView
         android:id="@+id/imgDetailMovie"

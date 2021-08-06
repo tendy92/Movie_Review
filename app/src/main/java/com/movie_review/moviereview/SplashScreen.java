@@ -1,4 +1,4 @@
-package com.example.moviereview;
+package com.movie_review.moviereview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.moviereview.activity.MainActivity;
+import com.movie_review.moviereview.R;
+import com.movie_review.moviereview.activity.MainActivity;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class SplashScreen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(SplashScreen.this,MainActivity.class);
+                Intent intent=new Intent(SplashScreen.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }

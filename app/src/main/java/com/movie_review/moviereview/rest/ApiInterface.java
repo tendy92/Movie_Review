@@ -1,6 +1,6 @@
-package com.example.moviereview.rest;
+package com.movie_review.moviereview.rest;
 
-import com.example.moviereview.model.Response;
+import com.movie_review.moviereview.model.Response;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

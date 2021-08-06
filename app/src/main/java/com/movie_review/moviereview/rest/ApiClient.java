@@ -1,6 +1,6 @@
-package com.example.moviereview.rest;
+package com.movie_review.moviereview.rest;
 
-import com.example.moviereview.config.ServerConfig;
+import com.movie_review.moviereview.config.ServerConfig;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

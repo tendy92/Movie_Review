@@ -1,4 +1,4 @@
-package com.example.moviereview;
+package com.movie_review.moviereview;
 
 import android.content.Context;
 

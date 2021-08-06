@@ -1,4 +1,4 @@
-package com.example.moviereview.activity;
+package com.movie_review.moviereview.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,8 +7,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.moviereview.R;
-import com.example.moviereview.model.Result;
+import com.movie_review.moviereview.R;
+import com.movie_review.moviereview.model.Result;
 
 public class DetailActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.moviereview.activity;
+package com.movie_review.moviereview.activity;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -9,12 +9,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.moviereview.R;
-import com.example.moviereview.adapter.MovieAdapter;
-import com.example.moviereview.model.Response;
-import com.example.moviereview.model.Result;
-import com.example.moviereview.rest.ApiClient;
-import com.example.moviereview.rest.ApiInterface;
+import com.movie_review.moviereview.R;
+import com.movie_review.moviereview.adapter.MovieAdapter;
+import com.movie_review.moviereview.model.Response;
+import com.movie_review.moviereview.model.Result;
+import com.movie_review.moviereview.rest.ApiClient;
+import com.movie_review.moviereview.rest.ApiInterface;
 
 import java.util.List;
 

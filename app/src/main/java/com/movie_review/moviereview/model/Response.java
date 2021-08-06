@@ -1,4 +1,4 @@
-package com.example.moviereview.model;
+package com.movie_review.moviereview.model;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
