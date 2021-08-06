@@ -4,14 +4,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/cream"
-    android:padding="25dp">
+    android:background="@color/brown"
+    android:padding="25dp"
+    android:layout_margin="10dp"
+    >
 
     <ImageView
         android:id="@+id/imgMovie"
         android:layout_width="150dp"
         android:layout_height="175dp"
-        android:src="@color/blue"/>
+        android:src="@color/bone"/>
 
     <TextView
         android:id="@+id/tvTitle"
@@ -19,8 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/imgMovie"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
         android:textSize="16sp"
-        android:textColor="@color/blue"
+        android:textColor="@color/bone"
         android:textStyle="bold"
         android:text="JUDUL MOVIE"/>
 
@@ -32,8 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:maxLines="4"
-        android:textColor="@color/blue"
+        android:maxLines="5"
+        android:textColor="@color/bone"
         android:text="Ini Deskripsi Movie"/>
 
     <TextView
@@ -44,8 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:textColor="@color/blue"
+        android:textColor="@color/bone"
         android:text="Tanggal Rilis"/>
-
 
 </RelativeLayout>

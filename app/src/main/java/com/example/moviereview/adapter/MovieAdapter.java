@@ -60,7 +60,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MyViewHolder
     public void onBindViewHolder(@NonNull MovieAdapter.MyViewHolder holder, int position) {
         holder.tvTitle.setText(resultList.get(position).getTitle());
         holder.tvDesc.setText(resultList.get(position).getOverview());
-        holder.tvDate.setText(resultList.get(position).getOverview());
+        holder.tvDate.setText(resultList.get(position).getReleaseDate());
         Glide.with(context).load("https://image.tmdb.org/t/p/w185" + resultList.get(position).getPosterPath()).into(holder.imgPoster);
 
     }
